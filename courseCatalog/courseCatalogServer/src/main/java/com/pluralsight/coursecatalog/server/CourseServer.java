@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URI;
 import java.util.Properties;
-import java.util.logging.LogManager;
+//import java.util.logging.LogManager;
 
 public class CourseServer {
 
@@ -22,7 +22,7 @@ public class CourseServer {
     //}
 
     private static final Logger LOG = LoggerFactory.getLogger(CourseServer.class);
-    private static final String BASE_URL = "http://localhost:8080/";
+    private static final String BASE_URL = "http://localhost:4000/";
 
     public static void main(String... args) {
         String databaseFilename = loadDatabaseFilename();
