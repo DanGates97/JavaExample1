@@ -7,5 +7,5 @@ The application is divided into three main modules:
 
 All modules use the JUnit plugin to create simple unit tests and the SLF4J plugins to log messages to the command line.  The build process was also set up to create a stand-alone jar file that is located in the target folder of the Server module.
 
-Future - The obvious next step would be to build a front end to interact with the API.  I would also like to expand out the database model and implement a more robust database.  Additionally, the use of an ORM tool like Hibernate would be a fun addition once the database model is expanded.
+Future - The obvious next step would be to build a front end to interact with the API.  I would also like to expand out the database model and implement a more robust database.  Additionally, the use of an ORM tool like Hibernate would be a fun addition once the database model is expanded. I would also like to decouple the repository from the API for scalability.
 
